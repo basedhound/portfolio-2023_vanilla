@@ -653,7 +653,7 @@ body.light-theme {
 /*=============== CONTACT ===============*/
 .contact__container {
   row-gap: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 .contact__title {
   text-align: center;
@@ -703,7 +703,7 @@ body.light-theme {
 }
 .contact__form-div {
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   height: 4rem;
 }
 .contact__form-input {
@@ -720,6 +720,9 @@ body.light-theme {
   border-radius: 0.75rem;
   z-index: 1;
 }
+.contact__form-input:focus {
+  border-color: var(--title-color);
+}
 .contact__form-tag {
   position: absolute;
   top: -0.75rem;
@@ -734,6 +737,18 @@ body.light-theme {
 }
 .contact__form-area textarea {
   resize: none;
+}
+.contact__message {
+  bottom: -2;
+  left: 3;
+  font-size: var(--small-font-size);
+  margin-bottom: 1rem;
+}
+.contact .button__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*=============== FOOTER ===============*/
