@@ -3,8 +3,7 @@ const contactForm = document.getElementById("contact-form");
 const contactMessage = document.getElementById("contact-message");
 
 const sendEmail = (e) => {
-  console.log(sendEmail);
-  e.preventDefault();
+  // e.preventDefault();
   // serviceID - templateID - #form - publicKey
   emailjs
     .sendForm("service_xoa2uta", "template_ehkz8nv", "#contact-form", "")
