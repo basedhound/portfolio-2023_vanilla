@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://portfolio-v2js-fv.netlify.app" target="_blank">
-      <img src="client/public/preview.webp" alt="Project Banner">
+      <img src="./preview.webp" alt="Project Banner">
     </a>
   <h3 align="center">Portfolio v2 - Vanilla JS</h3>
 </div>
