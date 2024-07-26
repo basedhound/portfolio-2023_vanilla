@@ -1,8 +1,8 @@
 <div align="center">
     <a href="https://portfolio-v2js-fv.netlify.app" target="_blank">
-      <img src="./preview.webp" alt="Project Banner">
+      <img src="./design/preview.webp" alt="Project Banner">
     </a>
-  <h3 align="center">Portfolio v2 - Vanilla JS</h3>
+  <h3 align="center">Portfolio v2 - JS</h3>
 </div>
 
 ##  <br /> 📋 <a name="table">Table of Contents</a>
@@ -14,22 +14,43 @@
 
 ##  <br /> <a name="introduction">✨ Introduction</a>
 
-**[EN]** 
+**[EN]** Modern and minimalist portfolio website crafted using HTML, CSS, and JavaScript. Features smooth animations powered by the ScrollReveal.js library, a responsive carousel implemented with the Swiper.js library, and dynamic filtering and sorting with the MixItUp library to enhance user experience.
 
-**[FR]** 
+**[FR]** Site web de portfolio moderne et minimaliste conçu avec HTML, CSS et JavaScript. Comprend des animations fluides avec la bibliothèque ScrollReveal.js, un carrousel réactif implémenté avec la bibliothèque Swiper.js, ainsi qu'un filtrage et un tri dynamiques avec la bibliothèque MixItUp pour améliorer l'expérience utilisateur.
 
 ##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
-
-- **Framer Motion** is a React animation library designed for creating smooth, interactive animations and transitions. It simplifies complex animations with a straightforward API, supports gesture-based interactions, and offers physics-based animations for realistic motion effects.
-
-- Sanity 
-
-- Sass
+- HTML
+- CSS
+- JavaScript
+- [Sass](https://sass-lang.com/documentation/)
+- [ScrollReveal.js](https://scrollrevealjs.org/guide/installation.html)
+- [Swiper.js](https://swiperjs.com/get-started)
+- [MixItUp](https://github.com/patrickkunka/mixitup/)
 
 
 ## <br/> <a name="features">📝 Features</a>
+👉 Modern and minimalist design
+
+👉 Crafted using HTML, CSS, and JavaScript
+
+👉 Fully responsive with media queries
+
+👉 Smooth animations powered by ScrollReveal.js
+
+👉 Responsive carousel 
+
+👉 Dynamic filtering and sorting system 
+
+👉 Showcases portfolio projects effectively
+
+
+
+
+
+
+
+
 
 
 ## <br /> <a name="quick-start">🚀 Quick Start</a>
@@ -50,41 +71,7 @@ Make sure you have the following installed on your machine:
 git clone {git remote URL}
 ```
 
-<br/>**Installation**
-
-Let's install the project dependencies, from your terminal, run:
-
-```bash
-npm install
-# or
-yarn install
-```
-
-<br/>**Set Up Environment Variables**
-
-Create a new file named `.env` in the client folder of your project and add the following content:
-
-```env
-REACT_APP_SANITY_PROJECT_ID=
-
-REACT_APP_SANITY_TOKEN=
-```
-
-Replace the placeholder values with your actual respective account credentials:
-
-- [Sanity.io](https://www.sanity.io/manage )
-- [Personal desk](https://jsm-portfolio.sanity.studio/desk) (Create your own)
-
-
 <br/>**Running the Project**
 
-Installation will take a minute or two, but once that's done, you should be able to run the following command:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [`http://localhost:3000`](http://localhost:3000) in your browser to view the project.
-
+Use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+to launch a development local server with live reload feature for static & dynamic pages.
