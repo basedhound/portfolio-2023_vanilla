@@ -34,6 +34,8 @@
 
 - [**MixItUp**](https://github.com/patrickkunka/mixitup/) is a JavaScript library for creating animated filtering, sorting, and grouping of content on web pages. It allows developers to build interactive and dynamic layouts, such as portfolios or galleries, with smooth animations and responsive design.
 
+- [**EmailJS**](https://www.emailjs.com/docs/) is a service that enables developers to send emails directly from JavaScript applications without requiring server-side code. It supports various email service providers and allows integration with forms to send emails directly from the web application, making it ideal for contact forms and user feedback.
+
 
 ## <br/> <a name="features">📝 Features</a>
 👉 Modern and minimalist design
